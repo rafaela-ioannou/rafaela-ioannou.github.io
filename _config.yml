@@ -23,7 +23,7 @@ repository               : "rafaela-ioannou/rafaela-ioannou.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profilepictest.jpeg"
+  avatar           : #"profilepictest.jpeg"
   name             : "Rafaela Ioannou" "Ραφαέλα Ιωάννου"
   pronouns         : "she/her"  
   bio              : "PhD Student in Geometric Group Theory"
