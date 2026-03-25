@@ -24,7 +24,7 @@ repository               : "rafaela-ioannou/rafaela-ioannou.github.io"
 author:
   # Biographic information
   avatar           : #"profilepictest.jpeg"
-  name             : "Rafaela Ioannou" "Ραφαέλα Ιωάννου"
+  name             : "Rafaela Ioannou" #"Ραφαέλα Ιωάννου"
   pronouns         : "she/her"  
   bio              : "PhD Student in Geometric Group Theory"
   location         : "Edinburgh"
