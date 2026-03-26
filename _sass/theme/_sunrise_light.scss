@@ -2,20 +2,20 @@
    SUNRISE THEME - LIGHT VERSION
    ========================================================================== */
 /* Color codes used for the theme */
-$primary-color              : #fc3a52;
+$primary-color              : #07393c;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#fff, $primary-color, 50%);
 $lighter-primary-color      : mix(#fff, $primary-color, 90%);
-$background                 : #eff1f5;
+$background                 :#faf2ef;
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter        : #ffffff;
 $text                      : #000000;
 $text-muted                : #0e2431;
-$link                      : #8839ef;
+$link                      : #50342B;
 $link-dark                 : mix(#000, $link, 25%);
 $link-light                : mix(#fff, $link, 25%);
-$footer                    : #f2d5cf;
+$footer                    : #cfc0b4;
 $border                    : mix(#000, $background, 20%);
 $border-dark               : mix(#000, $background, 30%);
 
