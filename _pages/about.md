@@ -7,9 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a geometric group theorist, currently in the first year of my PhD at Heriot-Watt University. My supervisors are [Matthew Cordes](https://www.mcordes.com/) and [Alessandro Sisto](https://alexsisto.net/). 
+I am a geometric group theorist, currently in the first year of my PhD at Heriot-Watt University. My supervisors are [Matthew Cordes](https://www.mcordes.com/) and [Alessandro Sisto](https://alexsisto.net/). I am part of the [CDT programme](https://www.agq-cdt.org/) *Algebra, Geometry and Quantum Fields* hosted by Universities of Glasgow, Edinburgh and Heriot-Watt. 
+
+You can find Heriot-Watt's GGT group [here](https://www.macs.hw.ac.uk/~lc45/Conferences/MAXIMALS.html).
+
+Before I moved to Edinburgh, I was in Bristol, UK, studying for my integrated master's. 
 
 My research interests
 ======
-Here are some things I work on
+
+Currently, I am learning about *boundaries and relatively hyperbolic groups*. In particular, my current focus is on properties of the boundary of relatively hyperbolic groups that are preserved under group-theoretic Dehn fillings.
+
 
