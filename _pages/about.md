@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a geometric group theorist, currently in the first year of my PhD at Heriot-Watt University. My supervisors are [Matthew Cordes](https://www.mcordes.com/) and [Alessandro Sisto](https://alexsisto.net/). I am part of the [CDT programme](https://www.agq-cdt.org/) *Algebra, Geometry and Quantum Fields* hosted by Universities of Glasgow, Edinburgh and Heriot-Watt. 
+I am a geometric group theorist, currently in the first year of my PhD at Heriot-Watt University. My supervisors are [Matthew Cordes](https://www.mcordes.com/) and [Alessandro Sisto](https://alexsisto.net/). 
 
 You can find Heriot-Watt's GGT group [here](https://www.macs.hw.ac.uk/~lc45/Conferences/MAXIMALS.html).
 
