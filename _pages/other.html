@@ -9,9 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-<h1> Conferences attended</h1>
-
-<h1> Organisation</h1>
+<h2> Conferences attended</h2>
+{% for post in site.conferences reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+<h2> Organisation</h2>
 {% if site.organisation_category %}
   {% for category in site.organisation_category  %}
     {% assign title_shown = false %}
@@ -20,7 +22,7 @@ redirect_from:
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h3>{{ category[1].title }}</h3><hr />
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
@@ -32,5 +34,5 @@ redirect_from:
   {% endfor %}
 {% endif %} 
   
-<h1> Teaching</h1>
+<h2> Teaching</h2>
  I worked as a learning support assistant for mathematics in Bristol Brunel Academy between 2023 and 2025.
