@@ -9,14 +9,28 @@ redirect_from:
 
 {% include base_path %}
 
-Conferences attended
-======
-{% for post in site.posts %} {% include archive-single.html %} {% endfor %} 
+## Conferences attended
 
-Organisation
-======
-{% for post in site.portfolio %} {% include archive-single.html %} {% endfor %} 
+## Organisation
+{% if site.organisation_category %}
+  {% for category in site.organisation_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.organisation reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.organisation reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %} 
   
-Teaching
-======
-* I worked as a learning support assistant for mathematics in Bristol Brunel Academy between 2023 and 2025.
+## Teaching
+ I worked as a learning support assistant for mathematics in Bristol Brunel Academy between 2023 and 2025.
