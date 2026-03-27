@@ -17,7 +17,7 @@ stuff I attended
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h3>{{ category[1].title }}</h3>
+       <em> <h3>{{ category[1].title }}</h3> </em>
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
