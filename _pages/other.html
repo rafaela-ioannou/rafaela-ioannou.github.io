@@ -6,7 +6,16 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-<h2> Organisation</h2><hr />
+<!--> add this back in for conferences or important things you have organised and want to showcase. The format for adding things is: 
+title 	Title
+collection 	organisation
+category 	conferences
+permalink 	/other/nameofconference
+excerpt 	I was the student organiser for the [Name of thing](link of thing).
+
+Description of thing
+<!-->
+<!--><h2> Organisation</h2><hr />
 {% if site.organisation_category %}
   {% for category in site.organisation_category  %}
     {% assign title_shown = false %}
@@ -25,8 +34,10 @@ redirect_from:
   {% for post in site.organisation reversed %}
     {% include archive-single.html %}
   {% endfor %}
-{% endif %} 
+{% endif %} <!-->
 
+<h3> Seminars </h3><hr />
+I was one of the student organisers of the <li><a href="https://www.agq-cdt.org/fox-hedgehog-seminar/">Fox and Hedgehog seminar series</a> between 2025-2026
 <h3> Reading groups </h3><hr />
 I am currently organising a <a href="https://www.agq-cdt.org/training_25-26/cohort-reading-groups/quasi-isometric-rigidity/">reading group on quasi-isometric rigidity</a>. I have also organised reading groups on <a href="https://www.agq-cdt.org/training_25-26/cohort-reading-groups/geometric-group-theory-reading-group/">geometric group theory</a> and <a href="https://www.agq-cdt.org/training_25-26/cohort-reading-groups/random-groups-reading-group/">random groups</a>, along with <a href="https://taliashlomovich.github.io/">Talia Shlomovich</a> 
 
