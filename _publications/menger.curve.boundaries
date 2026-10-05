@@ -2,10 +2,9 @@
 title: "Menger Curve and Non-Planar Boundaries in Quotients of Hyperbolic Groups"
 collection: publications
 category: papers
-permalink: /2026-10-05-menger-curve
 date: 2026-10-05
 paperurl: 'https://arxiv.org/abs/2610.03411'
 venue: arXiv preprint
 ---
-<br />
+
 We study the persistence of non-planarity in boundaries of hyperbolic groups under quotients, focusing on quotients by large enough powers of infinite order elements. We prove that the non-planarity of the boundary of a one-ended hyperbolic group is preserved under such quotients. As a consequence, we obtain an analogous result about the persistence of Menger curve boundaries. 
