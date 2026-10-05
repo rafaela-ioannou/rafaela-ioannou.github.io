@@ -84,10 +84,9 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  preprints:
-    title: 'Pre-prints'    
   papers:
-    title: 'Papers'
+    title: 'Papers and preprints'    
+  
 
 # Organisation category 
 organisation_category:
