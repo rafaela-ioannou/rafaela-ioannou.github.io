@@ -84,12 +84,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Published and Accepted Papers'    
-  conferences:
-    title: 'Preprints and Submitted Papers'
+  preprints:
+    title: 'Pre-prints'    
+  papers:
+    title: 'Papers'
 
 # Organisation category 
 organisation_category:
